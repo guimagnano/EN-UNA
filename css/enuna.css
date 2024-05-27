@@ -1,0 +1,86 @@
+header {
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+}
+body{
+    font-family: "Urbanist";
+    background-color: black;
+    color: white;
+}
+
+header img {
+    max-width: 25%;
+    justify-content: left;
+}
+
+header h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+nav{
+    background-color:#fc49ae;
+    margin-bottom: 20px;
+    font-family: "Urbanist";
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    padding: 9px 10px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul li a.activo{
+    background-color: #ba046b;
+}
+main{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    font-weight: 400;
+    text-decoration: underline;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.contacto {
+    width: 70%;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-inner{
+    width: 1000px;
+    height: 1000px;
+}
+footer{
+    background-color: #ccc;
+    font-family: "Urbanist";
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
