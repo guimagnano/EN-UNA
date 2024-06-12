@@ -1,82 +1,106 @@
+body {
+    font-family: "Urbanist";
+    background-color: black;
+    color: white;
+}
+
 header {
-    background-color: black;
-    color: white;
-    flex-grow: 1;
-}
-body{
-    font-family: "Urbanist";
-    background-color: black;
-    color: white;
+    width: 100%;
+    height: 250px;
+    align-items: center;
 }
 
-header img {
-    max-width: 25%;
-    justify-content: left;
-}
-
-header h1 {
-    font-size: 100px;
+.logo{
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
-header h2 {
-    font-size: 25px;
-    text-align: center;
-    color: white;
+.logo img {
+    max-width: 200px;
+    margin-right: 25%;
+    float: left;
 }
-nav{
-    background-color:#fc49ae;
+
+.logo h1 {
+    font-size: 90px;
+    float: left;
+}
+
+nav {
+    width: auto;
+    background-color: #fc49ae;
     margin-bottom: 20px;
+    font-size: 200%;
     font-family: "Urbanist";
 }
-nav ul{
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     flex-grow: 1;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
     padding: 9px 10px;
     display: block;
     text-align: center;
 }
-nav ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
-nav ul li a.activo{
+
+nav ul li a.activo {
     background-color: #ba046b;
 }
-main{
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
     background-color: black;
     color: white;
 }
 
-h2{
+h2 {
     font-weight: 400;
     text-decoration: underline;
 }
-.bienvenidos{
+
+.bienvenidos {
     width: 75%;
     padding-right: 10px;
     box-sizing: border-box;
 }
+.bienvenidos p{
+    font-size: 110%;
+}
+
 .contacto {
     width: 70%;
 }
-.columnas{
+
+.columnas {
     display: flex;
     justify-content: space-between;
 }
-.carousel-inner{
+
+.carousel-inner {
     width: 1000px;
     height: 1000px;
 }
-footer{
+
+footer {
     background-color: #ccc;
     font-family: "Urbanist";
     color: black;
@@ -84,3 +108,7 @@ footer{
     padding: 5px 0;
     margin-top: 20px;
 }
+ .reme {
+    size-adjust: 10%;
+
+ }
