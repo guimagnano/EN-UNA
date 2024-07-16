@@ -4,34 +4,28 @@ body {
     color: white;
 }
 
-header {
-    width: 100%;
-    height: 250px;
-    align-items: center;
-}
-
-.logo{
+.logo {
     display: flex;
     align-items: center;
     text-align: center;
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 150px;
     margin-right: 25%;
     float: left;
 }
 
 .logo h1 {
-    font-size: 90px;
+    font-size: 80px;
+    margin-left: 8%;
     float: left;
 }
 
 nav {
-    width: auto;
     background-color: #fc49ae;
     margin-bottom: 20px;
-    font-size: 200%;
+    font-size: 120%;
     font-family: "Urbanist";
 }
 
@@ -62,28 +56,14 @@ nav ul li a.activo {
     background-color: #ba046b;
 }
 
-a{
+a {
     text-decoration: none;
-    color: white;
-}
-
-main {
-    background-color: black;
     color: white;
 }
 
 h2 {
     font-weight: 400;
     text-decoration: underline;
-}
-
-.bienvenidos {
-    width: 75%;
-    padding-right: 10px;
-    box-sizing: border-box;
-}
-.bienvenidos p{
-    font-size: 110%;
 }
 
 .contacto {
@@ -95,11 +75,6 @@ h2 {
     justify-content: space-between;
 }
 
-.carousel-inner {
-    width: 1000px;
-    height: 1000px;
-}
-
 footer {
     background-color: #ccc;
     font-family: "Urbanist";
@@ -107,4 +82,11 @@ footer {
     text-align: center;
     padding: 5px 0;
     margin-top: 20px;
+}
+
+.Galeria-container {
+  display: inline-flex;
+}
+.mediasimg {
+   width: 100%;
 }
